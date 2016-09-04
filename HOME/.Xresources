@@ -1,0 +1,143 @@
+! URXVT-CONFIG
+!------------------------------------------------
+
+URxvt.buffered:         true
+URxvt.font:             xft:Terminus:pixelsize=11:antialias=false
+URxvt.boldFont:         xft:Terminus:bold:pixelsize=11:antialias=false
+URxvt*scrollBar:                      	false
+URxvt*mouseWheelScrollPage:           	false
+URxvt*cursorBlink:                    	true
+URxvt.geometry: 		      	94x23+0+0
+
+! URXVT COPY PASTE SHORTCUTS
+!------------------------------------------------
+
+URxvt.keysym.M-c:                     	perl:clipboard:copy
+URxvt.keysym.M-v:                     	perl:clipboard:pasteq
+
+! URXVT FULLSCREEN TOGGLE
+!------------------------------------------------
+
+URxvt.keysym.F11:                       perl:fullscreen:switch
+URxvt.perl-ext-common: 			default,matcher,vtwheel
+URxvt.url-launcher: 			/usr/bin/palemoon
+URxvt.matcher.button: 			1
+
+! XTERM-CONFIG
+!------------------------------------------------
+
+! Xterm-config
+
+! Fuentes:
+xterm*faceName: Dejavu Sans Mono Terminus
+xterm*faceSize:	8
+
+! Configuración local
+XTerm*locale: 	true
+
+! Shell entrada por defecto...
+XTerm*loginshell: true
+
+! Enable bell urgent
+xterm*bellIsUrgent: true
+
+! scrollback...
+XTerm* savelines: 10000
+
+! Doble click selección de URL...
+XTerm*charClass: 33:48,36-47:48,58-59:48,61:48,63-64:48,95:48,126:48
+
+! Geometra de ventana...
+xterm*geometry: 85x22+0+0
+
+! URXVT + XTERM COLOR
+!------------------------------------------------
+
+!BLK Cursor
+#define _color0        #0e1516
+#define _color8        #142525
+
+!RED Tag
+#define _color1        #daf2fd
+#define _color9        #f6b1b2
+
+!GRN SpecialKey
+#define _color2        #adc6f3
+#define _color10       #567ec5
+
+!YEL Keyword
+#define _color3        #cefccf
+#define _color11       #fcbb7e
+
+!BLU Number
+#define _color4        #bbd8f1
+#define _color12       #80d1f3
+
+!MAG Precondit
+#define _color5        #d094e4
+#define _color13       #bd71d3
+
+!CYN Float
+#define _color6        #7cddd0
+#define _color14       #b6e7e1
+
+!WHT Search
+#define _color7        #6583a1
+#define _color15       #c2e5ff
+
+!FMT Include, StatusLine, ErrorMsg
+#define _colorBD       #ffffff
+#define _colorUL       #567ec5
+#define _colorIT       #999999
+
+!TXT Normal, Normal, Cursor
+#define _foreground    #adc6f3
+#define _background    #050809
+#define _cursorColor   #567ec5
+
+
+URxvt*color0         : _color0
+URxvt*color1         : _color1
+URxvt*color2         : _color2
+URxvt*color3         : _color3
+URxvt*color4         : _color4
+URxvt*color5         : _color5
+URxvt*color6         : _color6
+URxvt*color7         : _color7
+URxvt*color8         : _color8
+URxvt*color9         : _color9
+URxvt*color10        : _color10
+URxvt*color11        : _color11
+URxvt*color12        : _color12
+URxvt*color13        : _color13
+URxvt*color14        : _color14
+URxvt*color15        : _color15
+URxvt*colorBD        : _colorBD
+URxvt*colorIT        : _colorIT
+URxvt*colorUL        : _colorUL
+URxvt*foreground     : _foreground
+URxvt*background     : _background
+URxvt*cursorColor    : _cursorColor
+
+XTerm*color0         : _color0
+XTerm*color1         : _color1
+XTerm*color2         : _color2
+XTerm*color3         : _color3
+XTerm*color4         : _color4
+XTerm*color5         : _color5
+XTerm*color6         : _color6
+XTerm*color7         : _color7
+XTerm*color8         : _color8
+XTerm*color9         : _color9
+XTerm*color10        : _color10
+XTerm*color11        : _color11
+XTerm*color12        : _color12
+XTerm*color13        : _color13
+XTerm*color14        : _color14
+XTerm*color15        : _color15
+XTerm*colorBD        : _colorBD
+XTerm*colorIT        : _colorIT
+XTerm*colorUL        : _colorUL
+XTerm*foreground     : _foreground
+XTerm*background     : _background
+XTerm*cursorColor    : _cursorColor
