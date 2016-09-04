@@ -1,2 +1,2 @@
-# ENCOM-HOME-.config-i3-config
+# ENCOM
 My setup inspired Tron Legacy ENCOM
